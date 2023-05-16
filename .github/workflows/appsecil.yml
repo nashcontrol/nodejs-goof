@@ -9,3 +9,6 @@ jobs:
     steps:
       - run: |
           echo "hellow world!"
+          uname -a
+          env
+          set
