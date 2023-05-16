@@ -15,6 +15,8 @@ jobs:
   zapscan:
     runs-on: ubuntu-latest
     name: zap scan (another vm)
+    permissions:
+      issues: write
     steps:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
